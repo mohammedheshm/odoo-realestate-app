@@ -60,10 +60,10 @@ The module demonstrates advanced Odoo development features including models, vie
 ---
 
 ## API Endpoints
-- `GET /api/properties` - List all properties  
-- `POST /api/properties` - Create new property  
-- `GET /api/properties/<id>` - Get property details  
-- `PUT /api/properties/<id>` - Update property  
-- `DELETE /api/properties/<id>` - Delete property  
+- `GET /v1//api/properties` - List all properties  
+- `POST /v1//api/properties` - Create new property  
+- `GET /v1//api/properties/<id>` - Get property details  
+- `PUT /v1//api/properties/<id>` - Update property  
+- `DELETE /v1//api/properties/<id>` - Delete property  
 
 > JSON response format, error handling included
