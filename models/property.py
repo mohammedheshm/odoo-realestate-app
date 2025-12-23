@@ -190,30 +190,6 @@ class Property(models.Model):
         except Exception as error:
             raise ValidationError(str(error))
 
-
-# @api.model_create_multi
-# def create(self, vals):
-#     res = super(Property, self).create(vals)
-#     print("Inside Create Method!")
-#     return res
-#
-# @api.model
-# def _search(self, domain, offset=0, limit=None, order=None, access_rights_uid=None):
-#     res = super(Property, self)._search(domain, offset=0, limit=None, order=None, access_rights_uid=None)
-#     print("Inside Search(Read) Method!")
-#     return res
-#
-# def _write(self, vals):
-#     res = super(Property, self)._write(vals)
-#     print("Inside Write (Update) Method!")
-#     return res
-#
-# def unlink(self):
-#     res = super(Property, self).unlink()
-#     print("Inside Delete Method!")
-#     return res
-
-
 class PropertyLine(models.Model):
     _name = 'property.line'
 
